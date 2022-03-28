@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:helper="clr-namespace:MessengerAppClone.Helpers"
+             x:Class="MessengerAppClone.StoriesPage"
+             Title="Stories"
+             BackgroundColor="{DynamicResource PrimaryColor}">
+    <ContentPage.IconImageSource>
+        <FontImageSource FontFamily="IconFontTypes" Glyph="{x:Static helper:IconFontHelper.View_carousel}"
+                         Size="20"/>
+    </ContentPage.IconImageSource>
+    <StackLayout>
+        <Label Text="Stories"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+               TextColor="{DynamicResource SecondaryColor}"/>
+    </StackLayout>
+</ContentPage>
